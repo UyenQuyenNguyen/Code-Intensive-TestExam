@@ -19,7 +19,6 @@ const InputBox = styled.div`
 	width: 20rem;
 	background-color: white;
 	display: flex;
-
 	justify-content: center;
 	align-items: center;
 	border-radius: 8px ;
@@ -54,6 +53,7 @@ const Card = styled.div`
 	align-items: center;
   padding: 2rem;
   box-sizing: border-box;
+  margin-top: 1.5rem;
 `
 
 const Info = styled.div`
