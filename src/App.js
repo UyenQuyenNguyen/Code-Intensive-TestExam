@@ -113,7 +113,7 @@ function App() {
     const data = await response.json();
     console.log(data);
     setWeather(data);
-    setShow(!show);
+    setShow(true);
   }
 
   const getIconWeather = (type) => {
